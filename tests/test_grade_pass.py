@@ -21,7 +21,7 @@ def test_grade_pass(score, expected_pass):
     [
         (-10, ValueError),  # Invalid score
         (110, ValueError),  # Invalid score
-        ("A", TypeError),
+        ("A", TypeError), #Invalid type
         ("", TypeError )  # Invalid type
     ],
 )
